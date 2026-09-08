@@ -151,6 +151,20 @@ def scrape_shop(page: Page, url: str) -> list[Product]:
     except PWTimeout:
         print("  no product links appeared within 15s — page may have no food items, "
               "or selector needs adjusting")
+        # Dump what the runner actually received, so we can tell blocking /
+        # geo-redirect / empty-shell apart from "this shop has no food today".
+        import os
+        os.makedirs("debug", exist_ok=True)
+        slug = url.rstrip("/").split("/")[-1]
+        print(f"  final URL after redirects: {page.url}")
+        print(f"  page title: {page.title()!r}")
+        try:
+            page.screenshot(path=f"debug/{slug}.png", full_page=True)
+            with open(f"debug/{slug}.html", "w", encoding="utf-8") as f:
+                f.write(page.content())
+            print(f"  saved debug/{slug}.png and debug/{slug}.html")
+        except Exception as e:
+            print(f"  could not save debug artifacts: {e}")
 
     all_products: dict[str, Product] = {}
     for page_num in range(1, MAX_PAGES_PER_SHOP + 1):
