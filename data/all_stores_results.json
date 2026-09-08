@@ -1,3218 +1,432 @@
-{
-  "atb": [],
-  "varus": [],
-  "velmart": [
-    {
-      "store": "Velmart",
-      "category": "М'ясо",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "М'ясо",
-      "name": "189 99 Ковбаски д/гриля та смаження Мортадельки охолоджені 600г газ/уп Глобино з 07.09 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kovbasky-d-grylya-ta-smazhennya-mortadelky-oholodzheni-600g-gaz-up-globyno/"
-    },
-    {
-      "store": "Velmart",
-      "category": "М'ясо",
-      "name": "114 99 Ковбаски д/гриля та смаження Фермерські охолоджені 500г газ/уп Глобино з 07.09 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kovbasky-d-grylya-ta-smazhennya-fermerski-oholodzheni-500g-gaz-up-globyno/"
-    },
-    {
-      "store": "Velmart",
-      "category": "М'ясо",
-      "name": "204 99 Шашлик курячий в маринаді ваговий з 07.09 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/shashlyk-kuryachyj-v-marynadi-vagovyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "М'ясо",
-      "name": "189 99 Шашлик По-домашньому н/ф охолоджений ваговий ВМ з 07.09 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/shashlyk-po-domashnomu-n-f-oholodzhenyj-vagovyj-vm/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "124 99 Бургери рибні з овочами заморожені 365г Esva з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/burgery-rybni-z-ovochamy-zamorozheni-365g-esva/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "19 49 Закуска з креветками",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/zakuska-z-krevetkamy-100g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "19 49 Закуска з оселедцем",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/zakuska-z-oseledtsem-100g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "21 99 Закуска Лососева",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/zakuska-lososeva-110g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "21 99 Закуска Сьомга копчена",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/zakuska-somga-kopchena-110g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "63 99 Ікра атлантичних риб в білому соусі з кальмаром",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-atlantychnyh-ryb-v-bilomu-sousi-z-kalmarom-160g-tvist-b-hit-produkt/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "63 99 Ікра атлантичних риб в білому соусі з копченим лососем",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-atlantychnyh-ryb-v-bilomu-sousi-z-kopchenym-lososem-160g-tvist-b-hit-produkt/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "24 49 Ікра білкова червона",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-bilkova-chervona-100g-rusalochka/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "442 99 Ікра лососева зерниста 100г ж/б з ключем Тихоокеанська з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-lososeva-zernysta-100g-zh-b-z-klyuchem-tyhookeanska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "527 99 Ікра лососева зерниста 120г ж/б з ключем Ікорні Традиції з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-lososeva-zernysta-120g-zh-b-z-klyuchem-ikorni-tradytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "707 99 Ікра лососева зерниста 120г ж/б з ключем Спец посол з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-lososeva-zernysta-120g-zh-b-z-klyuchem-spets-posol/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "1",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-lososeva-zernysta-275g-zh-b-z-klyuchem-spets-posol/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "358 99 Ікра лососева зерниста 80г ж/б з ключем Мореход з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-lososeva-zernysta-80g-zh-b-z-klyuchem-morehod/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "480 99 Ікра лососева зерниста 80г ж/б з ключем Спец посол з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-lososeva-zernysta-80g-zh-b-z-klyuchem-spets-posol/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "358 99 Ікра лососева зерниста солена 80г ж/б з ключем Приморська з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-lososeva-zernysta-solena-80g-zh-b-z-klyuchem-prymorska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "252 99 Ікра лососева форелі зерниста 80г ж/б з ключем з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-lososeva-foreli-zernysta-80g-zh-b-z-klyuchem/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "70 99 Ікра мiнтая пробiйна с/с",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-mintaya-probijna-s-s-100g-zh-b-z-klyuchem-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "67 99 Ікра мінтаю солона",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-mintayu-solona-100g-zh-b-z-klyuchem-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "81 99 Ікра мінтая пробійна солена 80г ж/б Камчадал з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-mintaya-probijna-solena-80g-zh-b-kamchadal/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "57 99 Ікра мойви в сирному соусі",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-mojvy-v-syrnomu-sousi-160g-tvist-b-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "245 99 Ікра мойви пробійна солена 180г скло Камчадал з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-mojvy-probijna-solena-180g-sklo-kamchadal/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "126 99 Ікра мойви пробійна солена 80г ж/б Камчадал з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-mojvy-probijna-solena-80g-zh-b-kamchadal/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "63 99 Ікра оселедця з м’ясом краба в соусі",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-oseledtsya-z-m-yasom-kraba-v-sousi-160g-tvist-b-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "63 99 Ікра оселедця з шматочками копченої сьомги в соусі",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-oseledtsya-z-shmatochkamy-kopchenoyi-somgy-v-sousi-160g-tvist-b-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "39 99 Ікра сайди Пате 80г ж/б з ключем Водний світ з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-sajdy-pate-80g-zh-b-z-klyuchem-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "50 99 Ікра тріски Pate з копченим лососем",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-trisky-pate-z-kopchenym-lososem-100g-zh-b-z-klyuchem-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "48 99 Ікра тріски Pate з копченою скумбрією",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-trisky-pate-z-kopchenoyu-skumbriyeyu-100g-zh-b-z-klyuchem-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "149 99 Ікра тріски Premium пробійна солона 250г Нерест з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-trisky-premium-probijna-solona-250g-nerest/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "39 99 Ікра тріски Пате 80г ж/б з ключем Водний світ з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-trisky-pate-80g-zh-b-z-klyuchem-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "75 99 Ікра тріски пробiйна підкопчена",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-trisky-probijna-pidkopchena-100g-zh-b-z-klyuchem-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "99 99 Ікра тріски пробiйна с/с",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-trisky-probijna-s-s-180g-tvist-b-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "131 99 Ікра тріски пробійна солена 180г скло Камчадал з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ikra-trisky-probijna-solena-180g-sklo-kamchadal/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "40 99 Капуста морська маринована з морепродуктами",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kapusta-morska-marynovana-z-moreproduktamy-150g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "179 99 Клешні маленького краба в олії 340г Vici з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kleshni-malenkogo-kraba-v-oliyi-340g-vici/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "159 99 Коктейль морський 400г Водний світ з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/koktejl-morskyj-400g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "152 99 Коктейль морський в/м очищений 400г в/у Veladis з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/koktejl-morskyj-v-m-ochyshhenyj-400g-v-u-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "212 60 Коктейль морський варений охолоджений 300г Норвен з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/koktejl-morskyj-varenyj-oholodzhenyj-300g-norven/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "134 99 Креветки в соусі з часником 150г Водний світ з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/krevetky-v-sousi-z-chasnykom-150g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "225 99 Креветки в/м в панцирі з головою 70/90 900г Esva з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/krevetky-v-m-v-pantsyri-z-golovoyu-70-90-900g-esva/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "123 99 Креветки очищені варені в заливці 150г Водний світ з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/krevetky-ochyshheni-vareni-v-zalyvtsi-150g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "192 99 Лосось хвостова частина с/с на шкірі 300г в/у Iceberg з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/losos-hvostova-chastyna-s-s-na-shkiri-300g-v-u-iceberg/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "81 99 Лосось черевця с/м",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/losos-cherevtsya-s-m-500g-v-u-kombinat-cherkasy/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "115 99 М’ясо мідій варено-морожене 400г Водний світ з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/m-yaso-midij-vareno-morozhene-400g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "281 99 Молюск черенок с/м 400г Делфін з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/molyusk-cherenok-s-m-400g-delfin/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "90 99 Морепродукти в соусі д/пасти",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/moreprodukty-v-sousi-d-pasty-180g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "84 99 Морепродукти в соусі д/салату",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/moreprodukty-v-sousi-d-salatu-180g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "44 99 Набір пивний Сьомга ніжна с/с",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/nabir-pyvnyj-somga-nizhna-s-s-100g-v-u-rusalochka/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "60 99 Оселедець філе с/с б/ш",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/oseledets-file-s-s-b-sh-180g-v-u-fish-good/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "132 99 Оселедець філе с/с в олії 500г Водний світ з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/oseledets-file-s-s-v-oliyi-500g-vodnyj-svit/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "66 99 Оселедець філе-шматочки Козацький в олії",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/oseledets-file-shmatochky-kozatskyj-v-oliyi-180g-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "105 99 Оселедець філе-шматочки Козацький Матьє в олії 300г Veladis з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/oseledets-file-shmatochky-kozatskyj-matye-v-oliyi-300g-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "83 99 Оселедець філе-шматочки пряно-пікантний в олії",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/oseledets-file-shmatochky-pryano-pikantnyj-v-oliyi-300g-norven/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "165 99 Палички крабові з м’ясом натурального краба охолоджені 250г Vici з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/palychky-krabovi-z-m-yasom-naturalnogo-kraba-oholodzheni-250g-vici/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "87 99 Палички крабові охолоджені",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/palychky-krabovi-oholodzheni-200g-vici/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "106 99 Палички крабові Сурімі Кама охолоджені 180г Vici з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/palychky-krabovi-surimi-kama-oholodzheni-180g-vici/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "82 99 Палички рибні",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/palychky-rybni-250g-vici/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "34 99 Паста рибна Адміральська",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pasta-rybna-admiralska-100g-rusalochka/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "28 49 Паста рибна Лососева",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pasta-rybna-lososeva-100g-tm-1/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "49 99 Пате з тунця",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pate-z-tuntsya-100g-zh-b-veladis/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "183 99 Порціі філе хека Пріоріті заморожені в паніровці 300г Vici з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/portsii-file-heka-prioriti-zamorozheni-v-panirovtsi-300g-vici/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "32 99 Продукт з сурімі Seafood Big Stick охолоджений 60г Vici з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/produkt-z-surimi-seafood-big-stick-oholodzhenyj-60g-vici/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "80 99 Салат з морської капусти з селерою",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/salat-z-morskoyi-kapusty-z-seleroyu-500g-iceberg/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "80 99 Салат з морської капусти По-корейськи",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/salat-z-morskoyi-kapusty-po-korejsky-500g-iceberg/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "55 99 Сосиски з лососем",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/sosysky-z-lososem-250g-v-u-silver-fud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Риба",
-      "name": "192 99 Хек палички в паніровці с/м 400г Делфін з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/hek-palychky-v-panirovtsi-s-m-400g-delfin/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Овочі, фрукти, квіти, соління",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "38 99 Ананас швидкозаморожений на паличці 80г Здоровий продукт з 07.09 по 20.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ananas-shvydkozamorozhenyj-na-palychtsi-80g-zdorovyj-produkt/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "97 99 Бендерики з м”ясом",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/benderyky-z-m-yasom-800g-domashnya-robota/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Біфідойогурт питний без цукру 1,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/bifidojogurt-pytnyj-bez-tsukru-1-5-260g-pet-aktyvia/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Біфідойогурт питний без цукру безлактозний 0,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/bifidojogurt-pytnyj-bez-tsukru-bezlaktoznyj-0-5-260g-pet-aktyvia/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Біфідойогурт питний з наповнювачем 5злаків 1,2%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/bifidojogurt-pytnyj-z-napovnyuvachem-5zlakiv-1-2-260g-pet-aktyvia/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Біфідойогурт питний з наповнювачем Ананас 1,2%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/bifidojogurt-pytnyj-z-napovnyuvachem-ananas-1-2-260g-pet-aktyvia/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Біфідойогурт питний з наповнювачем Вишня-чіа 1,2%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/bifidojogurt-pytnyj-z-napovnyuvachem-vyshnya-chia-1-2-260g-pet-aktyvia/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Біфідойогурт питний з наповнювачем Персик-манго безлактозний 0,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/bifidojogurt-pytnyj-z-napovnyuvachem-persyk-mango-bezlaktoznyj-0-5-260g-pet-aktyvia/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Біфідойогурт питний з наповнювачем Полуниця 1,2%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/bifidojogurt-pytnyj-z-napovnyuvachem-polunytsya-1-2-260g-pet-aktyvia/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Біфідойогурт питний з наповнювачем Полуниця-ківі безлактозний 0,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/bifidojogurt-pytnyj-z-napovnyuvachem-polunytsya-kivi-bezlaktoznyj-0-5-260g-pet-aktyvia/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Біфідойогурт питний з наповнювачем Ягоди-злаки 1,2%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/bifidojogurt-pytnyj-z-napovnyuvachem-yagody-zlaky-1-2-260g-pet-aktyvia/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "69 99 Вареники",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/varenyky-100-z-kartopleyu-ta-vershkamy-600g-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "82 99 Вареники з вишнею",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/varenyky-z-vyshneyu-400g-gerkules/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "80 99 Вареники з заварного тіста з вишнею",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/varenyky-z-zavarnogo-tista-z-vyshneyu-400g-levada/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "43 99 Вареники з картоплею",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/varenyky-z-kartopleyu-400g-gerkules/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "76 99 Вареники з картоплею та грибами",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/varenyky-z-kartopleyu-ta-grybamy-800g-levada/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "23 49 Вершки ультрапастеризовані 10%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/vershky-ultrapasteryzovani-10-200g-t-brik-burenka/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "129 99 Виріб з дріжджового листкового тіста Міні з малиною заморожений 500г Легко з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/vyrib-z-drizhdzhovogo-lystkovogo-tista-mini-z-malynoyu-zamorozhenyj-500g-legko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "129 99 Виріб з дріжджового листкового тіста Міні з сиром та шпинатом заморожений 500г Легко з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/vyrib-z-drizhdzhovogo-lystkovogo-tista-mini-z-syrom-ta-shpynatom-zamorozhenyj-500g-legko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "41 99 Десерт кисломолочний протеїновий Ваніль 9,4%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/desert-kyslomolochnyj-proteyinovyj-vanil-9-4-160g-stakan-pro-milk/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "41 99 Десерт кисломолочний протеїновий Карамель 9,4%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/desert-kyslomolochnyj-proteyinovyj-karamel-9-4-160g-stakan-pro-milk/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "41 99 Десерт кисломолочний протеїновий Манго-маракуйя 9,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/desert-kyslomolochnyj-proteyinovyj-mango-marakujya-9-5-160g-stakan-pro-milk/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "13 99 Йогурт з наповнювачем Банан 1,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/jogurt-z-napovnyuvachem-banan-1-5-115g-loko-moko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "13 99 Йогурт з наповнювачем Малина-яблуко 1,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/jogurt-z-napovnyuvachem-malyna-yabluko-1-5-115g-stakan-loko-moko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "13 99 Йогурт з полуницею 1,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/jogurt-z-polunytseyu-1-5-115g-loko-moko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "52 99 Квасоля стручкова порізана с/м",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kvasolya-struchkova-porizana-s-m-400g-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "27 99 Кефір 2,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kefir-2-5-450g-p-e-zarog/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "50 99 Кефір 2,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kefir-2-5-900g-p-e-zarog/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "34 99 Коктейль молочний Шейк з смаком кокосу-ананасу ультрапастеризований 1,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/koktejl-molochnyj-shejk-z-smakom-kokosu-ananasu-ultrapasteryzovanyj-1-5-270g-pet-yagotynskyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "34 99 Коктейль молочний Шейк з смаком полуниці ультрапастеризований 1,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/koktejl-molochnyj-shejk-z-smakom-polunytsi-ultrapasteryzovanyj-1-5-270g-pet-yagotynskyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "34 99 Коктейль молочний Шейк з смаком фісташки ультрапастеризований 1,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/koktejl-molochnyj-shejk-z-smakom-fistashky-ultrapasteryzovanyj-1-5-270g-pet-yagotynskyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "34 99 Коктейль молочний Шейк з смаком шоколаду ультрапастеризований 1,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/koktejl-molochnyj-shejk-z-smakom-shokoladu-ultrapasteryzovanyj-1-5-270g-pet-yagotynskyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "99 99 Котлета Кордон-блю заморожена",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kotleta-kordon-blyu-zamorozhena-315g-legko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "63 99 Котлета куряча заморожена",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kotleta-kuryacha-zamorozhena-350g-pan-sytnyk/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "99 99 Котлета По-київськи заморожена",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/kotleta-po-kyyivsky-zamorozhena-290g-legko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "151 99 Лохина в молочному шоколаді заморожена 140г стакан Rud з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/lohyna-v-molochnomu-shokoladi-zamorozhena-140g-stakan-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "48 99 Майонез Європейський 72%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/majonez-yevropejskyj-72-300g-d-p-torchyn/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "44 99 Майонез Золотий 50%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/majonez-zolotyj-50-300g-d-p-shhedro/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "38 99 Манго швидкозаморожене на паличці 80г Здоровий продукт з 07.09 по 20.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/mango-shvydkozamorozhene-na-palychtsi-80g-zdorovyj-produkt/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "35 99 Маргарин Вершковий 72%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/margaryn-vershkovyj-72-250g-shhedro/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "35 99 Маргарин Пампушок д/пухкої випічки №2 72%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/margaryn-pampushok-d-puhkoyi-vypichky-2-72-250g-folga-shhedro/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "87 99 Масло Екстра солодковершкове 82%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/maslo-ekstra-solodkovershkove-82-180g-ferma/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "71 99 Млинці з абрикосом заморожені",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/mlyntsi-z-abrykosom-zamorozheni-300g-valesto/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "74 99 Млинці з сиром та шинкою заморожені",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/mlyntsi-z-syrom-ta-shynkoyu-zamorozheni-300g-valesto/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "44 99 Молоко 2.5% 1л п/е Радивилівмолоко з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/moloko-2-5-1l-p-e-radyvylivmoloko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "41 99 Молоко Малюкам ультрапастеризоване від 3років 2,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/moloko-malyukam-ultrapasteryzovane-vid-3rokiv-2-5-900g-t-fino-selyanske/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "38 87 Молоко мікрофільтроване пастеризоване 2,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/moloko-mikrofiltrovane-pasteryzovane-2-5-850g-pet-selyanske/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "23 99 Молоко пастеризоване 2,5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/moloko-pasteryzovane-2-5-450g-p-e-zarog/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "44 99 Молоко пастеризоване 3,2%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/moloko-pasteryzovane-3-2-900g-p-e-zarog/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "34 99 Морозиво Balance в кондитерській глазурі безлактозне ескімо 70г Limo з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-balance-v-kondyterskij-glazuri-bezlaktozne-eskimo-70g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "43 99 Морозиво Bubble Rice вершкове з какао у кондитерській глазурі 90г Ласунка з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-bubble-rice-vershkove-z-kakao-u-kondyterskij-glazuri-90g-lasunka/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "31 99 Морозиво Macaroon Фісташка 60г Rud з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-macaroon-fistashka-60g-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "188 99 Морозиво Mix Deluxe Kyiv ice cake ванільно-арахісове з фундуком та карамельним соусом 600г Ласунка з 31.08 по 13.",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-mix-deluxe-kyiv-ice-cake-vanilno-arahisove-z-fundukom-ta-karamelnym-sousom-600g-lasunka/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "165 99 Морозиво Velvet Крем фреш-чорниця та чорничним наповнювачем 500г лоток Limo з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-velvet-krem-fresh-chornytsya-ta-chornychnym-napovnyuvachem-500g-lotok-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "165 99 Морозиво Velvet Торт Наполеон-черешня з наповнювачем Черешня 500г лоток Limo з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-velvet-tort-napoleon-chereshnya-z-napovnyuvachem-chereshnya-500g-lotok-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "15 99 Морозиво в кондитерській глазурі ескімо 80г ТМ “1” з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-v-kondyterskij-glazuri-eskimo-80g-tm-1/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "121 99 Морозиво Дитяче бажання 500г туба Рудь з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-dytyache-bazhannya-500g-tuba-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "15 99 Морозиво з какао в кондитерській глазурі ескімо 80г ТМ “1” з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-z-kakao-v-kondyterskij-glazuri-eskimo-80g-tm-1/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "24 99 Морозиво з смаком фісташки та арахісом вафельний стакан 75г Три ведмеді з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-z-smakom-fistashky-ta-arahisom-vafelnyj-stakan-75g-try-vedmedi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "28 99 Морозиво Каштан зі Львова з шоколадним смаком в кондитерській глазурі ескімо 70г Лімо з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-kashtan-zi-lvova-z-shokoladnym-smakom-v-kondyterskij-glazuri-eskimo-70g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "24 99 Морозиво Крем-брюле вафельний стакан 75г Три ведмеді з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-krem-bryule-vafelnyj-stakan-75g-try-vedmedi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "32 99 Морозиво Лакомка у збитій кондитерській глазурі",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-lakomka-u-zbytij-kondyterskij-glazuri-100g-laska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "32 99 Морозиво Лакомка у збитій кондитерській глазурі з какао",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-lakomka-u-zbytij-kondyterskij-glazuri-z-kakao-100g-laska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "24 99 Морозиво Лимонно-шоколадне вафельний стакан 75г Три ведмеді з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-lymonno-shokoladne-vafelnyj-stakan-75g-try-vedmedi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "28 99 Морозиво Львівське в кондитерській глазурі ескімо 70г Лімо з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-lvivske-v-kondyterskij-glazuri-eskimo-70g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "31 99 Морозиво Максимус арахісове з печивом у кондитерській глазурi брикет 90г Ласка з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-maksymus-arahisove-z-pechyvom-u-kondyterskij-glazuri-bryket-90g-laska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "31 99 Морозиво Максімус з печивом у кондитерській глазурі брикет 90г Ласка з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-maksimus-z-pechyvom-u-kondyterskij-glazuri-bryket-90g-laska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "46 99 Морозиво Міленіум Білий шоколад-черешня ескімо 80г Рудь з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-milenium-bilyj-shokolad-chereshnya-eskimo-80g-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "46 99 Морозиво Міленіум вершкове з молочним шоколадом та фундуком ескімо 80г Рудь з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-milenium-vershkove-z-molochnym-shokoladom-ta-fundukom-eskimo-80g-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "24 99 Морозиво плодово-ягідне з смаком вишні вафельний стакан 75г Три ведмеді з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plodovo-yagidne-z-smakom-vyshni-vafelnyj-stakan-75g-try-vedmedi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "199 99 Морозиво Пломбір 1965 700г паперовий пакет Лімо з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-700g-paperovyj-paket-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-junior-v-shokoladnij-glazuri-eskimo-65g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "30 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-junior-polunytsya-v-shokoladnij-glazuri-z-rysovymy-kulkamy-dvosharove-eskimo-65g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "34 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-bryket-100g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "25 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-vafelnyj-stakan-75g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "39 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-z-napovnyuvachem-kesh-yu-v-shokoladnij-glazuri-z-gorihamy-kesh-yu-eskimo-80g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "117 99 Морозиво Пломбір 1965 з наповнювачем Полуниця 500г туба Лімо з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-z-napovnyuvachem-polunytsya-500g-tuba-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "39 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-z-napovnyuvachem-sunytsya-v-shokoladnij-bilij-glazuri-z-mygdalevymy-stikamy-eskimo-80g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "25 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-lymon-dvosharove-vafelnyj-stakan-75g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "38 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-polunytsya-v-pechyvi-z-dropsamy-ta-rodzynkamy-dvosharove-100g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "25 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-ta-chervoni-yagody-dvosharove-vafelnyj-stakan-75g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "39 99 Морозиво Пломбір",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-1965-chereshnya-jogurtove-v-shokoladnij-glazuri-z-kranchamy-vyshni-eskimo-80g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "21 49 Морозиво пломбір 60г вафельний стакан ТМ з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-60g-vafelnyj-stakan-tm/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "28 49 Морозиво Пломбір ескімо 70г ТМ з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-eskimo-70g-tm/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "37 99 Морозиво пломбір з печивом",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-z-pechyvom-100g-bryket-tm/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "28 49 Морозиво Пломбір з смаком карамелі ескімо 70г ТМ з 17.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-plombir-z-smakom-karameli-eskimo-70g-tm/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "138 99 Морозиво Протеїн ванільне 270г стакан Blizzard з 07.09 по 20.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-proteyin-vanilne-270g-stakan-blizzard/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "31 99 Морозиво Сиркове",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-syrkove-1965-vershkove-z-napovnyuvachem-abrykos-u-vershkovij-glazuri-eskimo-65g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "31 99 Морозиво Сиркове",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-syrkove-1965-vershkove-z-napovnyuvachem-polunytsya-u-vershkovij-glazuri-eskimo-65g-limo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "24 49 Морозиво сорбет Чорниця-ожина-лохина вафельний стакан 75г Блізард з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-sorbet-chornytsya-ozhyna-lohyna-vafelnyj-stakan-75g-blizard/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "121 99 Морозиво Супер шоколад 500г п/е Рудь з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-super-shokolad-500g-p-e-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "65 99 Морозиво-десерт на кокосових вершках з наповнювачем Манго та насінням чіа",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-desert-na-kokosovyh-vershkah-z-napovnyuvachem-mango-ta-nasinnyam-chia-150g-stakan-lasunka/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "47 99 Морозиво-ріжок Imperium Лимонний курд-меренга",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-rizhok-imperium-lymonnyj-kurd-merenga-150g-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "47 99 Морозиво-ріжок Imperium Філадельфія/Крем-сир Груша",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-rizhok-imperium-filadelfiya-krem-syr-grusha-150g-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "23 99 Морозиво-ріжок з смаком Груша-бурбон з наповнювачем Карамель 70г Laska з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-rizhok-z-smakom-grusha-burbon-z-napovnyuvachem-karamel-70g-laska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "23 99 Морозиво-ріжок з смаком жувальної гумки та кремовим соусом 70г Laska з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-rizhok-z-smakom-zhuvalnoyi-gumky-ta-kremovym-sousom-70g-laska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "23 99 Морозиво-ріжок з смаком Фісташка-Наполеон з наповнювачем Малина 70г Laska з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozyvo-rizhok-z-smakom-fistashka-napoleon-z-napovnyuvachem-malyna-70g-laska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "37 99 МорозСтопНаркотЗМакІКунжБілШок85гЛасунка з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/morozstopnarkotzmakikunzhbilshok85glasunka/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "26 49 Напій кисломолочний Айран 1,8%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/napij-kyslomolochnyj-ajran-1-8-420g-pet-selyanskyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "26 49 Напій кисломолочний Айран з наповнювачем Огірок-часник-базилік 1,6%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/napij-kyslomolochnyj-ajran-z-napovnyuvachem-ogirok-chasnyk-bazylik-1-6-420g-pet-selyanskyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "26 49 Напій кисломолочний Айран з огірком та кропом 1,6%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/napij-kyslomolochnyj-ajran-z-ogirkom-ta-kropom-1-6-420g-pet-selyanskyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "45 99 Напій кисломолочний Кефір з наповнювачем Манго-апельсин 2,3%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/napij-kyslomolochnyj-kefir-z-napovnyuvachem-mango-apelsyn-2-3-520g-pet-yagotynskyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "45 99 Напій кисломолочний Кефір з наповнювачем Полуниця-м’ята 2,3%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/napij-kyslomolochnyj-kefir-z-napovnyuvachem-polunytsya-m-yata-2-3-520g-pet-yagotynskyj/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "119 99 Пельмені Ескімос 800г Rud з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pelmeni-eskimos-800g-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "84 99 Пельмені з молодою бараниною",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pelmeni-z-molodoyu-baranynoyu-400g-levada/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "39 99 Пельмені з свининою та яловичиною",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pelmeni-z-svynynoyu-ta-yalovychynoyu-400g-tm-1/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "74 99 Пельмені з свининою та яловичиною",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pelmeni-z-svynynoyu-ta-yalovychynoyu-800g-tm-1/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "73 99 Пельмені Курячі",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pelmeni-kuryachi-800g-tm-1/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "88 99 Пельмені Ма-ню-ням з індичкою та кроликом",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pelmeni-ma-nyu-nyam-z-indychkoyu-ta-krolykom-400g-laska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "119 99 Пельмені Мішутка з м’ясом телятини з додаванням вершків 400г Три ведмеді з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pelmeni-mishutka-z-m-yasom-telyatyny-z-dodavannyam-vershkiv-400g-try-vedmedi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "209 99 Пельмені Фірмові з яловичиною та свининою 800г Три ведмеді з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pelmeni-firmovi-z-yalovychynoyu-ta-svynynoyu-800g-try-vedmedi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "108 99 Пиріг Балканський з витяжного тіста філло з бринзою 350г Valesto з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/pyrig-balkanskyj-z-vytyazhnogo-tista-fillo-z-brynzoyu-350g-valesto/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "106 99 Продукт молоковмісний Сирнички міні запечені заморожені 320г Легко з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/produkt-molokovmisnyj-syrnychky-mini-zapecheni-zamorozheni-320g-legko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "32 99 Ряжанка 3,2%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ryazhanka-3-2-500g-p-e-zarog/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "27 49 Ряжанка З печі 3,2%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/ryazhanka-z-pechi-3-2-300g-stakan-yagotynska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "79 61 Сир кисломолочний 5%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/syr-kyslomolochnyj-5-350g-p-e-ferma/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "79 61 Сир кисломолочний 9%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/syr-kyslomolochnyj-9-350g-p-e-ferma/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "42 99 Сметана 15%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/smetana-15-350g-p-e-radymo/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "39 99 Сметана 15%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/smetana-15-350g-p-e-selyanska/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "38 99 Соус Тартар 40%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/sous-tartar-40-340g-pet-zhyrnov/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "38 99 Соус Часниковий 40%",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/sous-chasnykovyj-40-340g-pet-zhyrnov/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "61 99 Суміш Мексиканська лайт с/м",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/sumish-meksykanska-lajt-s-m-400g-hajberri/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "61 99 Суміш Суп зимовий с/м",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/sumish-sup-zymovyj-s-m-400g-highberry/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "88 99 Тісто листкове",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/tisto-lystkove-900g-levada/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "99 99 Тісто листкове заморожене 1кг Рудь з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/tisto-lystkove-zamorozhene-1kg-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "95 99 Тісто листково-дріжджове",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/tisto-lystkovo-drizhdzhove-900g-levada/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "99 99 Тісто листково-дріжджове заморожене 1кг Рудь з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/tisto-lystkovo-drizhdzhove-zamorozhene-1kg-rud/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "269 99 Торт-морозиво Буржуй Київський 800г Ласунка з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/tort-morozyvo-burzhuj-kyyivskyj-800g-lasunka/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Яйця, молочні, заморожені",
-      "name": "108 99 Філе куряче Chicken Strips заморожене 400г Легко з 31.08 по 13.09",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/file-kuryache-chicken-strips-zamorozhene-400g-legko/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Сири",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Ковбасні вироби",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Хліб",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Кондитерські, кава, чай",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Бакалія",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    },
-    {
-      "store": "Velmart",
-      "category": "Напої безалкогольні",
-      "name": "Акційні пропозиції",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://velmart.ua/aktsijni-propozytsiyi/"
-    }
-  ],
-  "fayno_market": [
-    {
-      "store": "Fayno market",
-      "category": "Бери більше — плати менше!",
-      "name": "2+1 25.99 грн 0.99 грн за кожну 3-тю одиницю Напій Shake Hugo б/а 0,33л з/б 27.08.2026 - 09.09.2026",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://fayno.market/discounts/beri-bilshe-plati-menshe-9832/napiy-shake-hugo-ba-033l-zb-200843619"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Бери більше — плати менше!",
-      "name": "2+1 20.99 грн 0.99 грн за кожну 3-тю одиницю Сирок Злагода Кокос твор.батончик 23% 43г 27.08.2026 - 09.09.2026",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://fayno.market/discounts/beri-bilshe-plati-menshe-9832/sirok-zlagoda-kokos-tvorbatonchik-23-37g-200844265"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Бери більше — плати менше!",
-      "name": "2+1 25.99 грн 0.99 грн за кожну 3-тю одиницю Напій Shake Pina Colada б/а 0,33 л з/б 27.08.2026 - 09.09.2026",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://fayno.market/discounts/beri-bilshe-plati-menshe-9832/napiy-shake-pina-colada-ba-033-l-zb-200844488"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Бери більше — плати менше!",
-      "name": "2+1 44.49 грн 0.99 грн за кожну 3-тю одиницю Мак.вироби VIVARELLI Ріжки 400г 27.08.2026 - 09.09.2026",
-      "price": null,
-      "old_price": null,
-      "discount_pct": null,
-      "date_range": null,
-      "url": "https://fayno.market/discounts/beri-bilshe-plati-menshe-9832/makvirobi-vivarelli-rizhki-400g-200844816"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файна комбінація!",
-      "name": "На другий",
-      "price": "12.99",
-      "old_price": "6.49",
-      "discount_pct": "50",
-      "date_range": "27.08.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/fayna-kombinatsiya-9817/desert-konti-bonjour-chornitsya-ta-maskarpone-29g-200831363"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файна комбінація!",
-      "name": "На другий",
-      "price": "20.99",
-      "old_price": "10.49",
-      "discount_pct": "50",
-      "date_range": "27.08.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/fayna-kombinatsiya-9817/mayonez-fayna-marka-salatniy-30-160g-200832375"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файна комбінація!",
-      "name": "На другий",
-      "price": "31.99",
-      "old_price": "15.99",
-      "discount_pct": "50",
-      "date_range": "27.08.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/fayna-kombinatsiya-9817/sneki-fayna-marka-smetana-ta-zelen-70g-200832593"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файна комбінація!",
-      "name": "На другий",
-      "price": "29.99",
-      "old_price": "14.99",
-      "discount_pct": "50",
-      "date_range": "27.08.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/fayna-kombinatsiya-9817/napiy-schweppes-classic-mojito-033l-zb-200833201"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файна комбінація!",
-      "name": "На другий",
-      "price": "47.99",
-      "old_price": "23.99",
-      "discount_pct": "50",
-      "date_range": "27.08.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/fayna-kombinatsiya-9817/morozivo-rud-imperium-vishnya-shokolad-eskimo-70g-200834025"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "78.99",
-      "old_price": "131.99",
-      "discount_pct": "40",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kava-maccoffee-arabika-rozchinna-60-g-mu-203289847"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "666.9",
-      "old_price": "1026.9",
-      "discount_pct": "35",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/dzherki-kuryachi-kmk-klasichni-sk-vg-100-fas-203294759"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "25.99",
-      "old_price": "38.99",
-      "discount_pct": "33",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kvas-lvivskiy-nefiltrovaniy-chorniy-05-l-zb-203291592"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "49.99",
-      "old_price": "73.99",
-      "discount_pct": "32",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kvas-lvivskiy-nefiltrovaniy-chorniy-15-l-pet-203293313"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "42.99",
-      "old_price": "61.99",
-      "discount_pct": "30",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/chay-pickwick-baykhoviy-zelen-20-fp-203301729"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "50.99",
-      "old_price": "68.99",
-      "discount_pct": "26",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/chay-hillway-golden-ceylon-chorn-25-pak-203287892"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "39.99",
-      "old_price": "53.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/chay-hillway-classic-green-zel-25-fp-203295392"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "64.99",
-      "old_price": "86.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/chay-lipton-yellow-label-chorniy-25-fp-203284589"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "5.99",
-      "old_price": "7.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kava-petrovskaya-sloboda-3v1-karamel-rozch-18g-203294370"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "5.99",
-      "old_price": "7.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kava-petrovskaya-sloboda-3v1-zgushch-moloko-rozch-18g-203296081"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "5.99",
-      "old_price": "7.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kava-petrovskaya-sloboda-3v1-lis-gorikh-rozch-18g-203295861"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "50.99",
-      "old_price": "65.99",
-      "discount_pct": "22",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/napiy-zhivchik-iz-sokom-grushi-2-l-pet-203303117"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "28.99",
-      "old_price": "36.99",
-      "discount_pct": "21",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/napiy-rozmay-lisoviy-dyushes-balk-05l-zb-203296430"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "31.99",
-      "old_price": "40.99",
-      "discount_pct": "21",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/voda-obolonska-zi-smak-limona-ta-apels-2-l-pet-203287395"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "63.99",
-      "old_price": "79.99",
-      "discount_pct": "20",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kava-jacobs-kronung-classic-melena-70g-mu-203283741"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "37.99",
-      "old_price": "47.99",
-      "discount_pct": "20",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/chay-monomax-earl-grey-chorn25-fp-203296821"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "68.99",
-      "old_price": "84.99",
-      "discount_pct": "18",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kvas-lvivskiy-bochkoviy-2l-pet-203299748"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "10.99",
-      "old_price": "12.99",
-      "discount_pct": "15",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kava-jacobs-3v1-strong-rozch-stik-203290901"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "10.99",
-      "old_price": "12.99",
-      "discount_pct": "15",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kava-jacobs-monarch-3v1-rozch-stik-203287617"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "41.99",
-      "old_price": "47.99",
-      "discount_pct": "12",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/sosiski-sokolivskiy-prikopcheni-sho-1g-80-315g-203292004"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "44.99",
-      "old_price": "50.99",
-      "discount_pct": "11",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kovbasa-bmk-salyami-zolotista-sk-vg-70-70g-1-203300972"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "218.9",
-      "old_price": "243.9",
-      "discount_pct": "10",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kovbasa-saltivskiy-salyami-bavari-nk-vg-100-fas-203303283"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Файні пропозиції місяця!",
-      "name": "",
-      "price": "42.99",
-      "old_price": "47.99",
-      "discount_pct": "10",
-      "date_range": "03.09.2026 - 07.10.2026",
-      "url": "https://fayno.market/discounts/fayni-propozitsii-misyatsya-9843/kovbasa-sokolivskiy-retro-z-mol-sho1g-var75490g-203295168"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "34.99",
-      "old_price": "69.79",
-      "discount_pct": "49",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/kvasolya-gurman-naturalna-450g-sb-205136510"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "16.99",
-      "old_price": "31.99",
-      "discount_pct": "46",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/makvirobi-fayna-marka-spagetti-400g-205055875"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "182.99",
-      "old_price": "304.99",
-      "discount_pct": "40",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/morozivo-rud-100-1kg-vag-205087031"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "17.99",
-      "old_price": "29.99",
-      "discount_pct": "40",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/mayonez-korolivskiy-smak-chudoviy-50-160g-dpak-205068424"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "11.99",
-      "old_price": "19.89",
-      "discount_pct": "39",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/zhele-iris-polunitsya-90g-1-205074415"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "19.99",
-      "old_price": "31.99",
-      "discount_pct": "37",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/zakuska-vodniy-svit-lososeva-110g-205134890"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "11.99",
-      "old_price": "18.89",
-      "discount_pct": "36",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/makvirobi-reeva-vermishel-z-kurkoyu-60g-205093207"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "39.99",
-      "old_price": "62.49",
-      "discount_pct": "36",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/sardini-baltiyski-naturalni-z-dodavannyam-olii-24-205114685"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "82.99",
-      "old_price": "128.99",
-      "discount_pct": "35",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/kava-maccoffee-gold-60g-mu-205085493"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "19.99",
-      "old_price": "30.89",
-      "discount_pct": "35",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/makvirobi-reeva-lokshina-z-yalovichinoyu-85g-205121207"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "29.99",
-      "old_price": "45.99",
-      "discount_pct": "34",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/pechivo-oreo-kakaopolunitsyachizkeyk-95g-1-205119557"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "29.99",
-      "old_price": "45.99",
-      "discount_pct": "34",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/pechivo-oreo-z-kakao-ta-kremovoyu-nachinkoyu-95g-1-205067114"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "5.99",
-      "old_price": "8.99",
-      "discount_pct": "33",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/garyachiy-shokolad-macchocolate-20gr-pak-205139685"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "29.99",
-      "old_price": "45.39",
-      "discount_pct": "33",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/ribni-konservi-flotski-kilka-nerozbvts-230g-205061023"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "79.99",
-      "old_price": "119.99",
-      "discount_pct": "33",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/maslo-kozub-ekstra-83-180g-205078281"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "65.99",
-      "old_price": "97.49",
-      "discount_pct": "32",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/preservi-fayna-marka-losos-v-oliii-180g-205106528"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "11.09",
-      "old_price": "16.29",
-      "discount_pct": "31",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/pasta-tomatna-fayna-marka-25-sashet-70g-205086175"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "52.99",
-      "old_price": "76.99",
-      "discount_pct": "31",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/shokolad-millennium-premium-poristiy-mol-85g-205072190"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "52.99",
-      "old_price": "76.99",
-      "discount_pct": "31",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/shokolad-millennium-premium-poristiy-biliy-85g-205083195"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "74.99",
-      "old_price": "107.99",
-      "discount_pct": "30",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/chipsi-lays-smetana-zelen-170g-1-205093181"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "48.99",
-      "old_price": "69.99",
-      "discount_pct": "30",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/morozivo-rud-eskimos-shokolad-eskimo-80g-205098368"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "55.29",
-      "old_price": "78.99",
-      "discount_pct": "30",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/pasta-veladis-krevetochna-z-avokado-150g-sb-205061043"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "24.99",
-      "old_price": "35.99",
-      "discount_pct": "30",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/morozivo-rud-dityache-vafst-70g-205114699"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "174.99",
-      "old_price": "249.99",
-      "discount_pct": "30",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/morozivo-rud-fistashka-makarun-500g-vidro-205117495"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "37.99",
-      "old_price": "54.99",
-      "discount_pct": "30",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/chay-ahmad-tea-chay-london-chorn-20-fp-205135613"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "54.99",
-      "old_price": "73.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/chipsi-lyuks-losos-u-vershkakh-rifleni-125g-205126152"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "13.99",
-      "old_price": "18.89",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/korm-c4p-premium-losos-v-zhele-dlya-kotiv-85g-205126750"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "5.99",
-      "old_price": "7.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/kava-maccoffee-lisoviy-gorikh-3v1-18g-pak-205094043"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "54.99",
-      "old_price": "73.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/chipsi-lyuks-smetana-tsibulya-125g-1-205086537"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "22.49",
-      "old_price": "29.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/morozivo-laska-barbados-kakaozgushchmolvafst70g-205113231"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "13.99",
-      "old_price": "18.89",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/korm-c4r-premium-kurka-v-sousi-dlya-dor-kotiv-85gr-205056287"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "38.99",
-      "old_price": "51.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/morozivo-laska-lakomka-eskimo-100g-205085319"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "10.99",
-      "old_price": "14.69",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/korm-myau-z-kurkoyu-v-nizhnomu-sousi-ddorkotiv-85g-1-205107125"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "10.99",
-      "old_price": "14.69",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/korm-myau-z-riboyu-v-nizhnomu-sousi-dlya-kotiv-85g-1-205132344"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "54.99",
-      "old_price": "73.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/chipsi-lyuks-zi-smakom-lisichok-khvilyasti-125g-205139848"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "73.99",
-      "old_price": "97.99",
-      "discount_pct": "24",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/nektar-jaffa-mangoviy-095-l-tpak-205128842"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "85.99",
-      "old_price": "110.99",
-      "discount_pct": "22",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/nektar-jaffa-apelsinoviy-1l-205119859"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "20.99",
-      "old_price": "26.99",
-      "discount_pct": "22",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/voda-bon-buasson-miner-ngaz-15l-pet-205090014"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "20.99",
-      "old_price": "26.99",
-      "discount_pct": "22",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/voda-bon-buasson-miner-gaz-15l-pet-205106920"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Калейдоскоп файних пропозицій!",
-      "name": "",
-      "price": "59.99",
-      "old_price": "76.99",
-      "discount_pct": "22",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/kaleydoskop-faynikh-propozitsiy-9870/shokolad-nesquik-molochniy-z-nachinkoyu-100g-205095225"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Спеціальна пропозиція!",
-      "name": "",
-      "price": "12.99",
-      "old_price": "23",
-      "discount_pct": "43",
-      "date_range": "27.08.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/spetsialna-propozitsiya-9862/espreso-201459704"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "62.99",
-      "old_price": "192.89",
-      "discount_pct": "67",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/sumish-malyutka-khorol-premium-3-350g-205142930"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "39.99",
-      "old_price": "59.89",
-      "discount_pct": "33",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/ribni-konservi-akvamarin-kilka-nr-vts-230g-205142170"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "14.99",
-      "old_price": "22.49",
-      "discount_pct": "33",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/priprava-idelia-12-ovochiv-ta-trav-univgran60g-1-205161996"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "107.99",
-      "old_price": "154.99",
-      "discount_pct": "30",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/morozivo-laska-maximuse-karamshokkrikhshmpech300g-205151918"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "5.99",
-      "old_price": "7.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/kava-petrovskaya-sloboda-3v1-mitsna-rozch-20g-205149049"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "31.49",
-      "old_price": "41.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/morozivo-laska-spravzhniy-plombir-vafst70g-205180890"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "37.49",
-      "old_price": "49.99",
-      "discount_pct": "25",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/morozivo-laska-veleten-shokoladvishnya-vafst100g-205180665"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "26.99",
-      "old_price": "35.89",
-      "discount_pct": "24",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/morozivo-rud-super-shokolad-vafst-70g-205178710"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "124.99",
-      "old_price": "164.99",
-      "discount_pct": "24",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/morozivo-laska-vernisazh-iris-vidro-450g-205172224"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "133.99",
-      "old_price": "171.99",
-      "discount_pct": "22",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/chipsi-pringles-sour-cream-onion-165g-205149274"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "24.99",
-      "old_price": "31.99",
-      "discount_pct": "21",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/sukhariki-flint-pshen-zhit-krab-100g-205161708"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "27.99",
-      "old_price": "34.99",
-      "discount_pct": "20",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/ayran-yagotinskiy-2-450g-pet-205154932"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "65.99",
-      "old_price": "82.99",
-      "discount_pct": "20",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/maslo-vigidno-selyanske-73-180g-205180343"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "31.99",
-      "old_price": "39.99",
-      "discount_pct": "20",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/grinki-flint-craft-zhit-pshen-chasnik-80g-205161903"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "223.99",
-      "old_price": "280.99",
-      "discount_pct": "20",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/kava-jacobs-monarch-rozchinna-100mu-205151742"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "34.99",
-      "old_price": "43.99",
-      "discount_pct": "20",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/nektar-dobriy-ranok-multifrukt-1-l-tpak-205161013"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "21.49",
-      "old_price": "26.99",
-      "discount_pct": "20",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/voda-karpatska-dzherelna-slgaz-15-l-pet-205162469"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "56.99",
-      "old_price": "71.99",
-      "discount_pct": "20",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/kakao-fayna-marka-100g-205144344"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "7.99",
-      "old_price": "9.89",
-      "discount_pct": "19",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/produkt-sirk-vigidno-gl-zgushchene-moloko-23-36g-205158930"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "23.99",
-      "old_price": "28.99",
-      "discount_pct": "17",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/napiy-chudo-sad-sitro-2l-pet-205179527"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "61.99",
-      "old_price": "73.99",
-      "discount_pct": "16",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/nektar-svitanok-yabluchno-ananasoviy-095l-tpak-205169333"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "20.99",
-      "old_price": "24.99",
-      "discount_pct": "16",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/napiy-bon-buasson-baykal-05l-pet-205174915"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "18.49",
-      "old_price": "21.99",
-      "discount_pct": "15",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/napiy-mojo-m-yata-laym-z-sokom-033-ml-zb-205165463"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "72.99",
-      "old_price": "86.39",
-      "discount_pct": "15",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/ikra-vodniy-svit-moyvi-z-krevetkoyu-160g-205142387"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "47.99",
-      "old_price": "56.99",
-      "discount_pct": "15",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/napiy-lipton-kholzelchay-1l-pet-205152140"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "74.99",
-      "old_price": "88.59",
-      "discount_pct": "15",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/maslo-fayna-marka-selyanske-726-180-g-1-205157392"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "16.99",
-      "old_price": "19.99",
-      "discount_pct": "15",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/nektar-svitanok-yabluko-vishnya-02l-tpak-1-205170631"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "16.99",
-      "old_price": "19.99",
-      "discount_pct": "15",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/nektar-svitanok-multifruktoviy-02l-tpak-205174638"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "47.99",
-      "old_price": "55.99",
-      "discount_pct": "14",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/nektar-sadochok-yabluchno-vinogradniy-095l-tpak-205170289"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "39.99",
-      "old_price": "46.99",
-      "discount_pct": "14",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/nektar-lito-vinogradno-granatoviy-09l-pet-205148201"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "59.99",
-      "old_price": "69.99",
-      "discount_pct": "14",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/nektar-sadochok-tomatniy-095-l-tpak-205177392"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "47.99",
-      "old_price": "55.99",
-      "discount_pct": "14",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/nektar-sadochok-multifrukt-095-l-tpak-1-205141295"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "18.99",
-      "old_price": "21.99",
-      "discount_pct": "13",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/nektar-biola-multivitaminniy-025l-pet-205163233"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "39.99",
-      "old_price": "45.99",
-      "discount_pct": "13",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/pryanik-vigidno-sokovita-vishnya-glazur250g-205143985"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "24.99",
-      "old_price": "28.99",
-      "discount_pct": "13",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/voda-chudo-sad-yabluko-ekhinatseya-2l-pet-205169665"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "14.99",
-      "old_price": "17.3",
-      "discount_pct": "13",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/chipsi-vigidno-plastinkami-smetana-zelen-60g-205158495"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "35.99",
-      "old_price": "40.99",
-      "discount_pct": "12",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/arakhis-vigidno-zi-smak-siru-smazh-sol-120g-205168930"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "13.99",
-      "old_price": "15.99",
-      "discount_pct": "12",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/kruasan-lukas-z-kakao-kremovoyu-nachinkoyu-45g-205146521"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "13.99",
-      "old_price": "15.99",
-      "discount_pct": "12",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/kruasan-lukas-z-molochno-kremovoyu-nachinkoyu-45g-205140048"
-    },
-    {
-      "store": "Fayno market",
-      "category": "Ціна із застосунком",
-      "name": "",
-      "price": "27.99",
-      "old_price": "31.99",
-      "discount_pct": "12",
-      "date_range": "03.09.2026 - 09.09.2026",
-      "url": "https://fayno.market/discounts/tsina-iz-zastosunkom-9869/marshmellou-izh-nashe-tuchki-shtuchki-75g-205169157"
-    }
-  ]
+"""
+Unified discount scraper: ATB + Varus + Velmart + Fayno market.
+
+All four are official retailer sites serving plain server-rendered HTML with
+real URL-based pagination and no Cloudflare/bot-check (unlike gotoshop.ua,
+which is deliberately excluded). Plain `requests` + BeautifulSoup, no
+browser needed anywhere in this script.
+
+Requires: pip install requests beautifulsoup4 --break-system-packages
+
+Usage:
+    python discount_scraper_all.py
+
+Every product also carries a `raw_text` field: the full, untouched text
+block scraped for that item, before any name/price/discount splitting.
+That field is the source of truth — the structured fields (price,
+discount_pct, etc.) are a best-effort convenience on top of it. This
+means a regex mismatch on any one site loses precision, not the product
+itself: whatever reads this JSON downstream (e.g. the daily-digest task)
+can fall back to reading raw_text directly, the same way it already
+reads ATB/Varus pages today.
+
+STATUS as of the last run I reviewed: ATB, Velmart, and Fayno market are
+verified against real HTML and were re-fixed after a first run exposed
+parsing bugs (wrong climb depth for ATB, wrong price-order assumption for
+Velmart, wrong template assumption for Fayno's bundle promos). Varus is
+still UNVERIFIED — I have never seen its real markup. scrape_varus() now
+unconditionally saves debug/varus_<category>.html on page 1 of every
+source regardless of match count, so the next run will produce that file
+even if parsing succeeds by luck. If Varus still shows 0, share that
+debug file and I'll fix VARUS_PRICE_RE precisely instead of guessing again.
+"""
+
+import json
+import os
+import re
+import time
+from dataclasses import dataclass, asdict
+
+import requests
+from bs4 import BeautifulSoup
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 }
+MAX_PAGES = 20
+
+
+@dataclass
+class Product:
+    store: str
+    category: str
+    name: str
+    price: str | None
+    old_price: str | None
+    discount_pct: str | None
+    date_range: str | None
+    url: str
+    raw_text: str  # always the full, untouched text block for this product —
+    # the fallback of record. The digest-writing step (Claude reading this
+    # JSON) can parse this with its own judgment exactly like it already
+    # does when fetching ATB/Varus pages directly, so a wrong/missing
+    # structured field never means the product itself is lost.
+
+
+def save_debug(store: str, slug: str, html: str) -> None:
+    os.makedirs("debug", exist_ok=True)
+    path = f"debug/{store}_{slug}.html"
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"    saved {path} for inspection")
+
+
+# ---- ATB ----------------------------------------------------------------
+
+ATB_SOURCES = {
+    "Економія": "https://www.atbmarket.com/catalog/economy",
+    "Новинки": "https://www.atbmarket.com/catalog/novetly",
+    "Акція 7 днів (Жовті Води)": "https://www.atbmarket.com/jovti-vody/catalog/388-aktsiya-7-dniv",
+}
+
+# "107.50 грн/шт (Гривня) 188.90"  or  "79.95 грн/кг (Гривня) 98.95"  or
+# "90.50 грн/шт (Гривня)" (no discount -> no old price)
+ATB_PRICE_RE = re.compile(r"([\d]+\.\d{2})\s*грн/(шт|кг)\s*\(Гривня\)\s*([\d]+\.\d{2})?")
+ATB_DISCOUNT_RE = re.compile(r"-(\d+)%")
+
+
+def scrape_atb_source(session: requests.Session, category: str, base_url: str) -> list[Product]:
+    products: dict[str, Product] = {}
+    for page in range(1, MAX_PAGES + 1):
+        url = base_url if page == 1 else f"{base_url}?page={page}"
+        resp = session.get(url, headers=HEADERS, timeout=20)
+        print(f"  [atb:{category}] page {page}: HTTP {resp.status_code}, {len(resp.text)} bytes")
+        if resp.status_code != 200:
+            print(f"  [atb:{category}] page {page}: stopping (non-200)")
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        links = soup.select("a[href*='/product/']")
+        print(f"  [atb:{category}] page {page}: {len(links)} raw /product/ links found")
+        new_count = 0
+        for a in links:
+            href = a["href"]
+            if href in products:
+                continue
+            # Climb until we find an ancestor whose text also contains the
+            # price pattern — deeper cap than before (10, not 4) since real
+            # nesting depth for this template turned out to be greater than
+            # first assumed; this was the actual cause of the 0-result run.
+            container = a
+            text = ""
+            for _ in range(10):
+                parent = container.find_parent()
+                if parent is None:
+                    break
+                container = parent
+                text = container.get_text(" ", strip=True)
+                if ATB_PRICE_RE.search(text):
+                    break
+            price_m = ATB_PRICE_RE.search(text)
+            name = a.get_text(strip=True) or href.rsplit("/", 1)[-1]
+            discount_m = ATB_DISCOUNT_RE.search(text) if text else None
+
+            products[href] = Product(
+                store="ATB",
+                category=category,
+                name=name,
+                price=price_m.group(1) if price_m else None,
+                old_price=price_m.group(3) if price_m else None,
+                discount_pct=discount_m.group(1) if discount_m else None,
+                date_range=None,
+                url=href if href.startswith("http") else f"https://www.atbmarket.com{href}",
+                raw_text=text or name,
+            )
+            if price_m:
+                new_count += 1
+
+        print(f"  [atb:{category}] page {page}: {new_count} with a parsed price")
+        if len(links) == 0:
+            # Genuinely nothing on the page (not just a parsing miss) —
+            # save it so we can tell a real block/redirect apart from a
+            # regex problem.
+            save_debug("atb", f"{category.replace(' ', '_')}_p{page}", resp.text)
+            break
+        if page > 1 and new_count == 0:
+            break
+        time.sleep(0.5)
+
+    return list(products.values())
+
+
+def scrape_atb(session: requests.Session) -> list[Product]:
+    all_products: list[Product] = []
+    for category, url in ATB_SOURCES.items():
+        all_products.extend(scrape_atb_source(session, category, url))
+    return all_products
+
+
+# ---- Varus (UNVERIFIED — see module docstring) ---------------------------
+
+VARUS_SOURCES = {
+    "Знижки до -40%": "https://varus.ua/dnipro/znizhki-do-40-na-tovari-dlya-litnogo-nastroyu",
+    "Хіти з новою поштою": "https://varus.ua/dnipro/hiti-yaki-vozimo-novoyu-poshtoyu",
+    "Тиждень покупок": "https://varus.ua/dnipro/weekly-shopping",
+    "Ціна тижня": "https://varus.ua/dnipro/price-of-the-week",
+}
+
+# Best-effort guess, modeled on ATB/Fayno price patterns. VERIFY against
+# debug/varus_*.html if this returns 0 — the real markup may differ.
+VARUS_PRICE_RE = re.compile(r"([\d]+[.,]\d{2})\s*грн")
+VARUS_DISCOUNT_RE = re.compile(r"-(\d+)%")
+
+
+def scrape_varus_source(session: requests.Session, category: str, base_url: str) -> list[Product]:
+    products: dict[str, Product] = {}
+    for page in range(1, MAX_PAGES + 1):
+        params = {"sort": "final_price:desc"}
+        if "weekly-shopping" in base_url or "price-of-the-week" in base_url:
+            params["has_promotion_in_stores"] = "1"
+        if page > 1:
+            params["page"] = page
+
+        resp = session.get(base_url, headers=HEADERS, params=params, timeout=20)
+        print(f"  [varus:{category}] page {page}: HTTP {resp.status_code}, {len(resp.text)} bytes, final url {resp.url}")
+        if resp.status_code != 200:
+            print(f"  [varus:{category}] page {page}: stopping (non-200)")
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        links = soup.select("a[href*='varus.ua']") or soup.find_all("a", href=True)
+        product_links = [a for a in links if VARUS_PRICE_RE.search(a.get_text(" ", strip=True))]
+
+        new_count = 0
+        for a in product_links:
+            href = a.get("href", "")
+            if not href or href in products:
+                continue
+            text = a.get_text(" ", strip=True)
+            price_m = VARUS_PRICE_RE.search(text)
+            discount_m = VARUS_DISCOUNT_RE.search(text)
+            name = re.split(r"[\d]+[.,]\d{2}\s*грн", text)[0].strip() or text[:120]
+
+            products[href] = Product(
+                store="Varus",
+                category=category,
+                name=name,
+                price=price_m.group(1).replace(",", ".") if price_m else None,
+                old_price=None,
+                discount_pct=discount_m.group(1) if discount_m else None,
+                date_range=None,
+                url=href if href.startswith("http") else f"https://varus.ua{href}",
+                raw_text=text,
+            )
+            new_count += 1
+
+        print(f"  [varus:{category}] page {page}: {len(links)} total links, "
+              f"{len(product_links)} candidates, {new_count} new")
+        # Always dump page 1 (not just on a zero-match) — this is the
+        # source's first real HTML I've seen, so I want it regardless of
+        # whether the guessed selector happened to match anything.
+        if page == 1:
+            save_debug("varus", category.replace(" ", "_"), resp.text)
+        if new_count == 0:
+            break
+        time.sleep(0.5)
+
+    return list(products.values())
+
+
+def scrape_varus(session: requests.Session) -> list[Product]:
+    all_products: list[Product] = []
+    for category, url in VARUS_SOURCES.items():
+        all_products.extend(scrape_varus_source(session, category, url))
+    return all_products
+
+
+# ---- Velmart --------------------------------------------------------------
+
+VELMART_CATEGORIES = {
+    "М'ясо": "m-40582",
+    "Риба": "m-40585",
+    "Овочі, фрукти, квіти, соління": "m-40591",
+    "Яйця, молочні, заморожені": "m-40565",
+    "Сири": "m-45179",
+    "Ковбасні вироби": "s-40590",
+    "Хліб": "m-40579",
+    "Кондитерські, кава, чай": "m-40573",
+    "Бакалія": "m-40558",
+    "Напої безалкогольні": "m-40549",
+    "Напої алкогольні": "m-46340",  # filtered to beer only
+}
+
+# Real markup order confirmed from a live run: "<hrn> <kop> <name> з DD.MM по DD.MM"
+# — price digits come FIRST as two separate text nodes, not concatenated.
+VELMART_RE = re.compile(
+    r"^(\d{2,4})\s+(\d{2})\s+(.+?)(?:\s+з\s+(\d{2}\.\d{2})\s+по\s+(\d{2}\.\d{2}))?$"
+)
+
+
+def scrape_velmart_category(session: requests.Session, category: str, segment: str) -> list[Product]:
+    products: dict[str, Product] = {}
+    for page in range(1, MAX_PAGES + 1):
+        url = f"https://velmart.ua/aktsijni-propozytsiyi/?segment={segment}&paged={page}"
+        resp = session.get(url, headers=HEADERS, timeout=20)
+        if resp.status_code != 200:
+            print(f"  [velmart:{category}] page {page}: HTTP {resp.status_code} -> stop")
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        links = soup.select("a[href*='/aktsijni-propozytsiyi/'][href$='/']")
+        product_links = [a for a in links if "?" not in a.get("href", "") and a.get_text(strip=True)]
+
+        new_count = 0
+        skipped_nomatch = 0
+        for a in product_links:
+            href = a["href"]
+            if href in products:
+                continue
+            text = a.get_text(" ", strip=True)
+            m = VELMART_RE.match(text)
+            if not m:
+                # Nav/category links (e.g. "Акційні пропозиції") don't match
+                # the price-prefixed pattern — skip rather than store junk.
+                skipped_nomatch += 1
+                continue
+
+            products[href] = Product(
+                store="Velmart",
+                category=category,
+                name=m.group(3).strip(),
+                price=f"{m.group(1)}.{m.group(2)}",
+                old_price=None,
+                discount_pct=None,
+                date_range=f"{m.group(4)} - {m.group(5)}" if m.group(4) else None,
+                url=href if href.startswith("http") else f"https://velmart.ua{href}",
+                raw_text=text,
+            )
+            new_count += 1
+
+        print(f"  [velmart:{category}] page {page}: {len(product_links)} links, "
+              f"{new_count} new, {skipped_nomatch} skipped (nav/non-product)")
+        if new_count == 0:
+            break
+        time.sleep(0.5)
+
+    return list(products.values())
+
+
+def scrape_velmart(session: requests.Session) -> list[Product]:
+    all_products: list[Product] = []
+    for category, segment in VELMART_CATEGORIES.items():
+        prods = scrape_velmart_category(session, category, segment)
+        if category == "Напої алкогольні":
+            prods = [p for p in prods if "пиво" in p.name.lower()]
+            print(f"  [velmart] kept {len(prods)} beer items from alcohol category")
+        all_products.extend(prods)
+    return all_products
+
+
+# ---- Fayno market -----------------------------------------------------
+
+# Two promo templates confirmed from a live run:
+#   "-NN%" template: "<name> -NN% <price> грн <old_price> грн <name again> <dates>"
+#   "N+M" bundle template: "N+M <price> грн <bonus_price> грн за кожну ... <name> <dates>"
+# Handle both generically instead of assuming one fixed order.
+FAYNO_DATE_RE = re.compile(r"(\d{2}\.\d{2}\.\d{4})\s*-\s*(\d{2}\.\d{2}\.\d{4})")
+FAYNO_DISCOUNT_RE = re.compile(r"-(\d+)%")
+FAYNO_PRICE_ALL_RE = re.compile(r"([\d]+[.,]\d+)\s*грн")
+
+
+def parse_fayno_block(text: str):
+    date_m = FAYNO_DATE_RE.search(text)
+    discount_m = FAYNO_DISCOUNT_RE.search(text)
+    prices = FAYNO_PRICE_ALL_RE.findall(text)
+
+    if discount_m and discount_m.start() > 3:
+        # "-NN%" template — name sits before the marker.
+        name = text[: discount_m.start()].strip()
+    else:
+        # Bundle template (or discount marker right at the start) — name
+        # sits between the last price mention and the date range.
+        last_price_end = 0
+        for pm in FAYNO_PRICE_ALL_RE.finditer(text):
+            last_price_end = pm.end()
+        end = date_m.start() if date_m else len(text)
+        name = text[last_price_end:end].strip()
+
+    return {
+        "name": name or text[:120],
+        "price": prices[0] if prices else None,
+        "old_price": prices[1] if len(prices) > 1 else None,
+        "discount_pct": discount_m.group(1) if discount_m else None,
+        "date_range": f"{date_m.group(1)} - {date_m.group(2)}" if date_m else None,
+    }
+
+
+def scrape_fayno(session: requests.Session) -> list[Product]:
+    resp = session.get("https://fayno.market/discounts", headers=HEADERS, timeout=20)
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    section_links = sorted({
+        a["href"] for a in soup.select("a[href*='/discounts/']")
+        if a.get("href", "").count("/") == 4
+    })
+    print(f"  [fayno] found {len(section_links)} promotion sections")
+
+    products: dict[str, Product] = {}
+    for section_url in section_links:
+        full_url = section_url if section_url.startswith("http") else f"https://fayno.market{section_url}"
+        resp = session.get(full_url, headers=HEADERS, timeout=20)
+        soup = BeautifulSoup(resp.text, "html.parser")
+        section_name = soup.title.string.strip() if soup.title else section_url
+
+        links = soup.select(f"a[href^='{section_url}/']")
+        new_count = 0
+        for a in links:
+            href = a["href"]
+            if href in products:
+                continue
+            text = a.get_text(" ", strip=True)
+            parsed = parse_fayno_block(text)
+
+            products[href] = Product(
+                store="Fayno market",
+                category=section_name,
+                name=parsed["name"],
+                price=parsed["price"],
+                old_price=parsed["old_price"],
+                discount_pct=parsed["discount_pct"],
+                date_range=parsed["date_range"],
+                url=href if href.startswith("http") else f"https://fayno.market{href}",
+                raw_text=text,
+            )
+            new_count += 1
+        print(f"  [fayno:{section_name}] {len(links)} links, {new_count} new")
+        time.sleep(0.5)
+
+    return list(products.values())
+
+
+# ---- Main ---------------------------------------------------------------
+
+def main():
+    session = requests.Session()
+    results: dict[str, list[dict]] = {}
+
+    print("=== ATB ===")
+    results["atb"] = [asdict(p) for p in scrape_atb(session)]
+
+    print("\n=== Varus ===")
+    results["varus"] = [asdict(p) for p in scrape_varus(session)]
+
+    print("\n=== Velmart ===")
+    results["velmart"] = [asdict(p) for p in scrape_velmart(session)]
+
+    print("\n=== Fayno market ===")
+    results["fayno_market"] = [asdict(p) for p in scrape_fayno(session)]
+
+    os.makedirs("data", exist_ok=True)
+    out_path = "data/all_stores_results.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
+    total = sum(len(v) for v in results.values())
+    for store, items in results.items():
+        print(f"  {store}: {len(items)} products")
+    print(f"\nSaved {total} products total -> {out_path}")
+
+
+if __name__ == "__main__":
+    main()
