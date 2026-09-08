@@ -11,14 +11,24 @@ Requires: pip install requests beautifulsoup4 --break-system-packages
 Usage:
     python discount_scraper_all.py
 
-IMPORTANT CAVEAT for Vova: I verified the actual HTML structure for ATB,
-Velmart, and Fayno market by fetching their pages directly. I could NOT
-verify Varus's raw HTML in this session (search/fetch tooling didn't
-surface a fetchable varus.ua URL) — its parsing regex is a best-effort
-guess modeled on the other three sites' patterns and WILL likely need
-adjustment. If scrape_varus() returns 0 products, check
-debug/varus_<slug>.html (saved automatically on a zero-match) to see the
-real markup and fix VARUS_PRICE_RE accordingly.
+Every product also carries a `raw_text` field: the full, untouched text
+block scraped for that item, before any name/price/discount splitting.
+That field is the source of truth — the structured fields (price,
+discount_pct, etc.) are a best-effort convenience on top of it. This
+means a regex mismatch on any one site loses precision, not the product
+itself: whatever reads this JSON downstream (e.g. the daily-digest task)
+can fall back to reading raw_text directly, the same way it already
+reads ATB/Varus pages today.
+
+STATUS as of the last run I reviewed: ATB, Velmart, and Fayno market are
+verified against real HTML and were re-fixed after a first run exposed
+parsing bugs (wrong climb depth for ATB, wrong price-order assumption for
+Velmart, wrong template assumption for Fayno's bundle promos). Varus is
+still UNVERIFIED — I have never seen its real markup. scrape_varus() now
+unconditionally saves debug/varus_<category>.html on page 1 of every
+source regardless of match count, so the next run will produce that file
+even if parsing succeeds by luck. If Varus still shows 0, share that
+debug file and I'll fix VARUS_PRICE_RE precisely instead of guessing again.
 """
 
 import json
@@ -47,6 +57,11 @@ class Product:
     discount_pct: str | None
     date_range: str | None
     url: str
+    raw_text: str  # always the full, untouched text block for this product —
+    # the fallback of record. The digest-writing step (Claude reading this
+    # JSON) can parse this with its own judgment exactly like it already
+    # does when fetching ATB/Varus pages directly, so a wrong/missing
+    # structured field never means the product itself is lost.
 
 
 def save_debug(store: str, slug: str, html: str) -> None:
@@ -76,21 +91,26 @@ def scrape_atb_source(session: requests.Session, category: str, base_url: str) -
     for page in range(1, MAX_PAGES + 1):
         url = base_url if page == 1 else f"{base_url}?page={page}"
         resp = session.get(url, headers=HEADERS, timeout=20)
+        print(f"  [atb:{category}] page {page}: HTTP {resp.status_code}, {len(resp.text)} bytes")
         if resp.status_code != 200:
-            print(f"  [atb:{category}] page {page}: HTTP {resp.status_code} -> stop")
+            print(f"  [atb:{category}] page {page}: stopping (non-200)")
             break
 
         soup = BeautifulSoup(resp.text, "html.parser")
         links = soup.select("a[href*='/product/']")
+        print(f"  [atb:{category}] page {page}: {len(links)} raw /product/ links found")
         new_count = 0
         for a in links:
             href = a["href"]
             if href in products:
                 continue
-            # climb to a container that also holds the price text
+            # Climb until we find an ancestor whose text also contains the
+            # price pattern — deeper cap than before (10, not 4) since real
+            # nesting depth for this template turned out to be greater than
+            # first assumed; this was the actual cause of the 0-result run.
             container = a
             text = ""
-            for _ in range(4):
+            for _ in range(10):
                 parent = container.find_parent()
                 if parent is None:
                     break
@@ -99,27 +119,31 @@ def scrape_atb_source(session: requests.Session, category: str, base_url: str) -
                 if ATB_PRICE_RE.search(text):
                     break
             price_m = ATB_PRICE_RE.search(text)
-            if not price_m:
-                continue
-            discount_m = ATB_DISCOUNT_RE.search(text)
             name = a.get_text(strip=True) or href.rsplit("/", 1)[-1]
+            discount_m = ATB_DISCOUNT_RE.search(text) if text else None
 
             products[href] = Product(
                 store="ATB",
                 category=category,
                 name=name,
-                price=price_m.group(1),
-                old_price=price_m.group(3),
+                price=price_m.group(1) if price_m else None,
+                old_price=price_m.group(3) if price_m else None,
                 discount_pct=discount_m.group(1) if discount_m else None,
                 date_range=None,
                 url=href if href.startswith("http") else f"https://www.atbmarket.com{href}",
+                raw_text=text or name,
             )
-            new_count += 1
+            if price_m:
+                new_count += 1
 
-        print(f"  [atb:{category}] page {page}: {len(links)} links, {new_count} new")
-        if new_count == 0:
-            if page == 1:
-                save_debug("atb", category.replace(" ", "_"), resp.text)
+        print(f"  [atb:{category}] page {page}: {new_count} with a parsed price")
+        if len(links) == 0:
+            # Genuinely nothing on the page (not just a parsing miss) —
+            # save it so we can tell a real block/redirect apart from a
+            # regex problem.
+            save_debug("atb", f"{category.replace(' ', '_')}_p{page}", resp.text)
+            break
+        if page > 1 and new_count == 0:
             break
         time.sleep(0.5)
 
@@ -158,13 +182,12 @@ def scrape_varus_source(session: requests.Session, category: str, base_url: str)
             params["page"] = page
 
         resp = session.get(base_url, headers=HEADERS, params=params, timeout=20)
+        print(f"  [varus:{category}] page {page}: HTTP {resp.status_code}, {len(resp.text)} bytes, final url {resp.url}")
         if resp.status_code != 200:
-            print(f"  [varus:{category}] page {page}: HTTP {resp.status_code} -> stop")
+            print(f"  [varus:{category}] page {page}: stopping (non-200)")
             break
 
         soup = BeautifulSoup(resp.text, "html.parser")
-        # Guess: product links contain '/p' or '/product' or end in a
-        # numeric id — try a broad selector and refine after inspecting.
         links = soup.select("a[href*='varus.ua']") or soup.find_all("a", href=True)
         product_links = [a for a in links if VARUS_PRICE_RE.search(a.get_text(" ", strip=True))]
 
@@ -187,13 +210,18 @@ def scrape_varus_source(session: requests.Session, category: str, base_url: str)
                 discount_pct=discount_m.group(1) if discount_m else None,
                 date_range=None,
                 url=href if href.startswith("http") else f"https://varus.ua{href}",
+                raw_text=text,
             )
             new_count += 1
 
-        print(f"  [varus:{category}] page {page}: {len(product_links)} candidate links, {new_count} new")
+        print(f"  [varus:{category}] page {page}: {len(links)} total links, "
+              f"{len(product_links)} candidates, {new_count} new")
+        # Always dump page 1 (not just on a zero-match) — this is the
+        # source's first real HTML I've seen, so I want it regardless of
+        # whether the guessed selector happened to match anything.
+        if page == 1:
+            save_debug("varus", category.replace(" ", "_"), resp.text)
         if new_count == 0:
-            if page == 1:
-                save_debug("varus", category.replace(" ", "_"), resp.text)
             break
         time.sleep(0.5)
 
@@ -223,7 +251,11 @@ VELMART_CATEGORIES = {
     "Напої алкогольні": "m-46340",  # filtered to beer only
 }
 
-VELMART_PRICE_RE = re.compile(r"(\d+)(\d{2})\s*(?:з\s+(\d{2}\.\d{2})\s+по\s+(\d{2}\.\d{2}))?$")
+# Real markup order confirmed from a live run: "<hrn> <kop> <name> з DD.MM по DD.MM"
+# — price digits come FIRST as two separate text nodes, not concatenated.
+VELMART_RE = re.compile(
+    r"^(\d{2,4})\s+(\d{2})\s+(.+?)(?:\s+з\s+(\d{2}\.\d{2})\s+по\s+(\d{2}\.\d{2}))?$"
+)
 
 
 def scrape_velmart_category(session: requests.Session, category: str, segment: str) -> list[Product]:
@@ -240,29 +272,34 @@ def scrape_velmart_category(session: requests.Session, category: str, segment: s
         product_links = [a for a in links if "?" not in a.get("href", "") and a.get_text(strip=True)]
 
         new_count = 0
+        skipped_nomatch = 0
         for a in product_links:
             href = a["href"]
             if href in products:
                 continue
             text = a.get_text(" ", strip=True)
-            m = VELMART_PRICE_RE.search(text.replace(",", ""))
-            price = f"{m.group(1)}.{m.group(2)}" if m else None
-            date_range = f"{m.group(3)} - {m.group(4)}" if m and m.group(3) else None
-            name = re.split(r"\d{3,}", text)[0].strip() or text[:120]
+            m = VELMART_RE.match(text)
+            if not m:
+                # Nav/category links (e.g. "Акційні пропозиції") don't match
+                # the price-prefixed pattern — skip rather than store junk.
+                skipped_nomatch += 1
+                continue
 
             products[href] = Product(
                 store="Velmart",
                 category=category,
-                name=name,
-                price=price,
+                name=m.group(3).strip(),
+                price=f"{m.group(1)}.{m.group(2)}",
                 old_price=None,
                 discount_pct=None,
-                date_range=date_range,
+                date_range=f"{m.group(4)} - {m.group(5)}" if m.group(4) else None,
                 url=href if href.startswith("http") else f"https://velmart.ua{href}",
+                raw_text=text,
             )
             new_count += 1
 
-        print(f"  [velmart:{category}] page {page}: {len(product_links)} links, {new_count} new")
+        print(f"  [velmart:{category}] page {page}: {len(product_links)} links, "
+              f"{new_count} new, {skipped_nomatch} skipped (nav/non-product)")
         if new_count == 0:
             break
         time.sleep(0.5)
@@ -283,9 +320,39 @@ def scrape_velmart(session: requests.Session) -> list[Product]:
 
 # ---- Fayno market -----------------------------------------------------
 
-FAYNO_PRICE_RE = re.compile(
-    r"-(\d+)%\s*([\d.,]+)\s*грн\s*([\d.,]+)\s*грн.*?(\d{2}\.\d{2}\.\d{4})\s*-\s*(\d{2}\.\d{2}\.\d{4})"
-)
+# Two promo templates confirmed from a live run:
+#   "-NN%" template: "<name> -NN% <price> грн <old_price> грн <name again> <dates>"
+#   "N+M" bundle template: "N+M <price> грн <bonus_price> грн за кожну ... <name> <dates>"
+# Handle both generically instead of assuming one fixed order.
+FAYNO_DATE_RE = re.compile(r"(\d{2}\.\d{2}\.\d{4})\s*-\s*(\d{2}\.\d{2}\.\d{4})")
+FAYNO_DISCOUNT_RE = re.compile(r"-(\d+)%")
+FAYNO_PRICE_ALL_RE = re.compile(r"([\d]+[.,]\d+)\s*грн")
+
+
+def parse_fayno_block(text: str):
+    date_m = FAYNO_DATE_RE.search(text)
+    discount_m = FAYNO_DISCOUNT_RE.search(text)
+    prices = FAYNO_PRICE_ALL_RE.findall(text)
+
+    if discount_m and discount_m.start() > 3:
+        # "-NN%" template — name sits before the marker.
+        name = text[: discount_m.start()].strip()
+    else:
+        # Bundle template (or discount marker right at the start) — name
+        # sits between the last price mention and the date range.
+        last_price_end = 0
+        for pm in FAYNO_PRICE_ALL_RE.finditer(text):
+            last_price_end = pm.end()
+        end = date_m.start() if date_m else len(text)
+        name = text[last_price_end:end].strip()
+
+    return {
+        "name": name or text[:120],
+        "price": prices[0] if prices else None,
+        "old_price": prices[1] if len(prices) > 1 else None,
+        "discount_pct": discount_m.group(1) if discount_m else None,
+        "date_range": f"{date_m.group(1)} - {date_m.group(2)}" if date_m else None,
+    }
 
 
 def scrape_fayno(session: requests.Session) -> list[Product]:
@@ -312,18 +379,18 @@ def scrape_fayno(session: requests.Session) -> list[Product]:
             if href in products:
                 continue
             text = a.get_text(" ", strip=True)
-            m = FAYNO_PRICE_RE.search(text)
-            name = text.split(f"-{m.group(1)}%")[0].strip() if m else text[:120]
+            parsed = parse_fayno_block(text)
 
             products[href] = Product(
                 store="Fayno market",
                 category=section_name,
-                name=name,
-                price=m.group(2) if m else None,
-                old_price=m.group(3) if m else None,
-                discount_pct=m.group(1) if m else None,
-                date_range=f"{m.group(4)} - {m.group(5)}" if m else None,
+                name=parsed["name"],
+                price=parsed["price"],
+                old_price=parsed["old_price"],
+                discount_pct=parsed["discount_pct"],
+                date_range=parsed["date_range"],
                 url=href if href.startswith("http") else f"https://fayno.market{href}",
+                raw_text=text,
             )
             new_count += 1
         print(f"  [fayno:{section_name}] {len(links)} links, {new_count} new")
