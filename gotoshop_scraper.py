@@ -141,8 +141,16 @@ def extract_products(page: Page) -> list[Product]:
 
 def scrape_shop(page: Page, url: str) -> list[Product]:
     print(f"\n=== {url} ===")
-    page.goto(url, wait_until="networkidle", timeout=30000)
+    # networkidle times out on ad-heavy sites (background/tracker requests
+    # never stop) — wait only for the DOM, then explicitly wait for a
+    # product link to actually appear.
+    page.goto(url, wait_until="domcontentloaded", timeout=45000)
     dismiss_age_gate(page)
+    try:
+        page.wait_for_selector(PRODUCT_LINK_SELECTOR, timeout=15000)
+    except PWTimeout:
+        print("  no product links appeared within 15s — page may have no food items, "
+              "or selector needs adjusting")
 
     all_products: dict[str, Product] = {}
     for page_num in range(1, MAX_PAGES_PER_SHOP + 1):
