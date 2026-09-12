@@ -22,22 +22,16 @@ itself: whatever reads this JSON downstream (e.g. the daily-digest task)
 can fall back to reading raw_text directly, the same way it already
 reads ATB/Varus pages today.
 
-STATUS as of the last run I reviewed: ATB, Velmart, and Fayno market are
-all verified against real HTML and produce clean structured data. Varus
-required a different fix entirely — it's a Vue Storefront single-page
-app whose server-rendered HTML has zero prices; products only appear
-after client-side JS runs. So scrape_varus() now uses Playwright
-(Chromium) to actually render the page, while the other three stay on
-plain `requests` (no browser needed for them). This means the workflow
-now needs `playwright install chromium` again, but ATB/Velmart/Fayno's
-speed is unaffected — only Varus pays the browser-startup cost.
+Every product also carries `image_url` — extracted directly from the
+<img> found in the same card/anchor used for name+price, with lazy-load
+attributes (data-src, srcset) preferred over a possibly-placeholder
+plain src. This avoids a separate per-product page fetch just to read
+og:image meta tags downstream. May be None if no <img> was found in that
+scope — never guessed or fabricated.
 
-I still don't have a confirmed example of Varus's *rendered* DOM (only
-confirmed that the *unrendered* HTML is empty of prices), so
-VARUS_PRICE_RE is still a generic guess and scrape_varus_source() now
-saves debug/varus_<category>.html from the POST-RENDER page content
-every run — if this comes back with 0 products again, that file will
-finally show the real rendered markup instead of the empty SPA shell.
+STATUS: all four stores (ATB, Varus, Velmart, Fayno market) are verified
+against real HTML/rendered-DOM and produce clean structured data,
+including images.
 """
 
 import json
@@ -54,6 +48,21 @@ HEADERS = {
                   "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 }
 MAX_PAGES = 20
+FULL_CATALOG_PAGE_CAP = 6  # full (non-discount) categories can run to dozens
+# of pages; cap them lower than the discount-page sources so a daily run
+# doesn't balloon into hours, especially for Varus where each page is a
+# full Playwright render, not a cheap HTTP request.
+FULL_CATALOG_CATEGORIES = {
+    # ATB
+    "Пиво безалкогольне", "Овочі та фрукти", "Кока-Кола без цукру",
+    "Побутова хімія", "Гігієна і косметика", "М'ясо",
+    "Молочні продукти та яйця", "Риба і морепродукти",
+    "Заморожені продукти", "Чипси, снеки", "Кава, какао",
+    # Varus
+    "Власні торгові марки", "Безалкогольний алкоголь", "Бакалія",
+    "Косметика та догляд", "Консерви та соління", "М'ясні вироби та яйця",
+    "Молочні продукти", "Риба", "Снеки", "Фрукти, овочі, горіхи", "Напої",
+}
 
 
 @dataclass
@@ -66,6 +75,7 @@ class Product:
     discount_pct: str | None
     date_range: str | None
     url: str
+    image_url: str | None
     raw_text: str  # always the full, untouched text block for this product —
     # the fallback of record. The digest-writing step (Claude reading this
     # JSON) can parse this with its own judgment exactly like it already
@@ -81,12 +91,52 @@ def save_debug(store: str, slug: str, html: str) -> None:
     print(f"    saved {path} for inspection")
 
 
+def extract_image_url(el, base_url: str) -> str | None:
+    """Find an <img> anywhere inside `el` and return its best src, resolved
+    to an absolute URL. Handles common lazy-load attributes (data-src,
+    data-srcset, srcset) since a plain src is sometimes a 1x1 placeholder
+    until JS swaps it in — falls back to plain src if nothing else is set."""
+    if el is None:
+        return None
+    img = el.find("img")
+    if img is None:
+        return None
+    for attr in ("data-src", "src", "data-original"):
+        val = img.get(attr)
+        if val and not val.startswith("data:"):
+            return val if val.startswith("http") else requests.compat.urljoin(base_url, val)
+    for attr in ("data-srcset", "srcset"):
+        val = img.get(attr)
+        if val:
+            first = val.split(",")[0].strip().split(" ")[0]
+            if first and not first.startswith("data:"):
+                return first if first.startswith("http") else requests.compat.urljoin(base_url, first)
+    return None
+
+
 # ---- ATB ----------------------------------------------------------------
 
 ATB_SOURCES = {
     "Економія": "https://www.atbmarket.com/catalog/economy",
     "Новинки": "https://www.atbmarket.com/catalog/novetly",
     "Акція 7 днів (Жовті Води)": "https://www.atbmarket.com/jovti-vody/catalog/388-aktsiya-7-dniv",
+    # Full-category sources (not just discount pages) — added so a cheap
+    # non-discounted item (e.g. a cheaper toilet paper with no promo badge)
+    # isn't invisible just because it's not on sale this week.
+    "Пиво безалкогольне": "https://www.atbmarket.com/catalog/310-pivo/f/bezalkogolne=tak",
+    "Овочі та фрукти": "https://www.atbmarket.com/catalog/287-ovochi-ta-frukti",
+    "Кока-Кола без цукру": "https://www.atbmarket.com/catalog/307-napoi/f/torgova-marka=coca-cola;vmist-cukru=bez-cukru",
+    "Побутова хімія": "https://www.atbmarket.com/catalog/308-pobutova-khimiya-ta-neprodovol-chi-tovari",
+    "Гігієна і косметика": "https://www.atbmarket.com/catalog/290-gigiena-i-kosmetika",
+    # NOTE: this URL arrived merged with the next one in the message
+    # ("...catalog/masohttps://...") — split into its two evident halves.
+    # "maso" as a slug is unverified; flag if this 404s on the next run.
+    "М'ясо": "https://www.atbmarket.com/catalog/maso",
+    "Молочні продукти та яйця": "https://www.atbmarket.com/catalog/molocni-produkti-ta-ajca",
+    "Риба і морепродукти": "https://www.atbmarket.com/catalog/353-riba-i-moreprodukti",
+    "Заморожені продукти": "https://www.atbmarket.com/catalog/322-zamorozheni-produkti",
+    "Чипси, снеки": "https://www.atbmarket.com/catalog/cipsi-sneki",
+    "Кава, какао": "https://www.atbmarket.com/catalog/286-kava-kakao",
 }
 
 # Real per-item text confirmed from a live run — no "(Гривня)" label exists
@@ -108,7 +158,8 @@ MAX_CONTAINER_TEXT_LEN = 3000  # guard against climbing all the way to a
 
 def scrape_atb_source(session: requests.Session, category: str, base_url: str) -> list[Product]:
     products: dict[str, Product] = {}
-    for page in range(1, MAX_PAGES + 1):
+    page_cap = FULL_CATALOG_PAGE_CAP if category in FULL_CATALOG_CATEGORIES else MAX_PAGES
+    for page in range(1, page_cap + 1):
         url = base_url if page == 1 else f"{base_url}?page={page}"
         resp = session.get(url, headers=HEADERS, timeout=20)
         print(f"  [atb:{category}] page {page}: HTTP {resp.status_code}, {len(resp.text)} bytes")
@@ -161,6 +212,7 @@ def scrape_atb_source(session: requests.Session, category: str, base_url: str) -
 
             price_m = ATB_PRICE_RE.search(text) if text else None
             discount_m = ATB_DISCOUNT_RE.search(text) if text else None
+            image_url = extract_image_url(anchor_list[0], base_url) or extract_image_url(container, base_url)
 
             products[href] = Product(
                 store="ATB",
@@ -171,6 +223,7 @@ def scrape_atb_source(session: requests.Session, category: str, base_url: str) -
                 discount_pct=discount_m.group(1) if discount_m else None,
                 date_range=None,
                 url=href if href.startswith("http") else f"https://www.atbmarket.com{href}",
+                image_url=image_url,
                 raw_text=text or name,
             )
             if price_m:
@@ -215,6 +268,21 @@ VARUS_SOURCES = {
     "Хіти з новою поштою": "https://varus.ua/dnipro/hiti-yaki-vozimo-novoyu-poshtoyu",
     "Тиждень покупок": "https://varus.ua/dnipro/weekly-shopping",
     "Ціна тижня": "https://varus.ua/dnipro/price-of-the-week",
+    # Full-category sources (not just discount pages) — same rationale as ATB.
+    "Власні торгові марки": "https://varus.ua/dnipro/own-trademarks",
+    "Безалкогольний алкоголь": "https://varus.ua/dnipro/bezalkogolnij-alkogol",
+    "Бакалія": "https://varus.ua/dnipro/bakaliya",
+    "Кока-Кола без цукру": "https://varus.ua/dnipro/solodki-napoi~brand_coca-cola~solodki-napoi-obiem_101-15-l_151-2-l~solodki-napoi-vmist-tsukru_bez-tsukru",
+    "Побутова хімія": "https://varus.ua/dnipro/pobutova-himiya",
+    "Косметика та догляд": "https://varus.ua/dnipro/kosmetika-ta-doglyad",
+    "Консерви та соління": "https://varus.ua/dnipro/konservi-ta-solinnya",
+    "М'ясні вироби та яйця": "https://varus.ua/dnipro/myasni-virobi-ta-yaycya",
+    "Молочні продукти": "https://varus.ua/dnipro/molochni-produkti",
+    "Заморожені продукти": "https://varus.ua/dnipro/zamorozheni-produkti",
+    "Риба": "https://varus.ua/dnipro/riba",
+    "Снеки": "https://varus.ua/dnipro/sneki",
+    "Фрукти, овочі, горіхи": "https://varus.ua/dnipro/frukti-ovochi-gorihi",
+    "Напої": "https://varus.ua/dnipro/napoi",
 }
 
 # Confirmed real structure from a rendered page (Playwright + inspecting
@@ -241,6 +309,30 @@ def scrape_varus_source(browser, category: str, url: str) -> list[Product]:
         except PWTimeout:
             print(f"  [varus:{category}] no .sf-product-card appeared within 15s")
 
+        if category in FULL_CATALOG_CATEGORIES:
+            # Full categories can hold far more than fits on one screen.
+            # UNVERIFIED: I don't have a confirmed "show more" selector for
+            # this template, so try a couple of plausible button texts,
+            # then fall back to scroll-to-bottom (covers infinite-scroll
+            # templates). Bounded by FULL_CATALOG_PAGE_CAP either way — if
+            # this undercounts a category, check debug/varus_<cat>.html to
+            # see whether a button was actually there and adjust the text.
+            for _ in range(FULL_CATALOG_PAGE_CAP):
+                clicked = False
+                for label in ["Показати ще", "Завантажити ще", "Show more"]:
+                    try:
+                        btn = page.get_by_text(label, exact=False).first
+                        if btn.is_visible(timeout=1000):
+                            btn.click()
+                            clicked = True
+                            page.wait_for_timeout(1200)
+                            break
+                    except Exception:
+                        continue
+                if not clicked:
+                    page.mouse.wheel(0, 4000)
+                    page.wait_for_timeout(1000)
+
         html = page.content()
         save_debug("varus", category.replace(" ", "_"), html)
 
@@ -264,6 +356,7 @@ def scrape_varus_source(browser, category: str, url: str) -> list[Product]:
             old_price_m = VARUS_NUM_RE.search(old_price_el.get_text()) if old_price_el else None
             new_price_m = VARUS_NUM_RE.search(new_price_el.get_text()) if new_price_el else None
             discount_m = VARUS_DISCOUNT_RE.search(sale_el.get_text()) if sale_el else None
+            image_url = extract_image_url(card, "https://varus.ua")
 
             products[href] = Product(
                 store="Varus",
@@ -274,6 +367,7 @@ def scrape_varus_source(browser, category: str, url: str) -> list[Product]:
                 discount_pct=discount_m.group(1) if discount_m else None,
                 date_range=None,
                 url=href if href.startswith("http") else f"https://varus.ua{href}",
+                image_url=image_url,
                 raw_text=card.get_text(" ", strip=True)[:300],
             )
         print(f"  [varus:{category}] {len(cards)} .sf-product-card elements, {len(products)} parsed")
@@ -352,6 +446,7 @@ def scrape_velmart_category(session: requests.Session, category: str, segment: s
                 discount_pct=None,
                 date_range=f"{m.group(4)} - {m.group(5)}" if m.group(4) else None,
                 url=href if href.startswith("http") else f"https://velmart.ua{href}",
+                image_url=extract_image_url(a, "https://velmart.ua"),
                 raw_text=text,
             )
             new_count += 1
@@ -448,6 +543,7 @@ def scrape_fayno(session: requests.Session) -> list[Product]:
                 discount_pct=parsed["discount_pct"],
                 date_range=parsed["date_range"],
                 url=href if href.startswith("http") else f"https://fayno.market{href}",
+                image_url=extract_image_url(a, "https://fayno.market"),
                 raw_text=text,
             )
             new_count += 1
