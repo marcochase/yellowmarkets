@@ -217,11 +217,17 @@ VARUS_SOURCES = {
     "Ціна тижня": "https://varus.ua/dnipro/price-of-the-week",
 }
 
-# Generic — I have no confirmed rendered-DOM example yet, only the (empty)
-# static HTML. This is deliberately loose; refine once debug/varus_*.html
-# from THIS version (saved from the JS-rendered page, not the static one)
-# comes back.
-VARUS_PRICE_RE = re.compile(r"(\d+[.,]\d{2})\s*грн")
+# Confirmed real structure from a rendered page (Playwright + inspecting
+# debug/varus_*.html):
+#   <div class="sf-product-card">
+#     <a class="sf-product-card__link" href="/product-slug">
+#     <h2 class="sf-product-card__title">Name</h2>
+#     ... quantity: <p class="sf-product-card__quantity">за 1 шт (500 мл)</p>
+#     with discount:    <del class="sf-price__old">89.00</del>
+#                        <ins class="sf-price__special ...">52.90 ₴</ins>
+#                        <span class="sf-price__sale">-41%</span>
+#     without discount: <span class="sf-price__regular">949.00 ₴</span>
+VARUS_NUM_RE = re.compile(r"[\d]+[.,]\d+")
 VARUS_DISCOUNT_RE = re.compile(r"-(\d+)%")
 
 
@@ -231,57 +237,46 @@ def scrape_varus_source(browser, category: str, url: str) -> list[Product]:
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=45000)
         try:
-            # Wait for actual price text to show up post-render.
-            page.wait_for_function(
-                "document.body.innerText.includes('грн')", timeout=15000
-            )
+            page.wait_for_selector(".sf-product-card", timeout=15000)
         except PWTimeout:
-            print(f"  [varus:{category}] no 'грн' text appeared within 15s after render")
+            print(f"  [varus:{category}] no .sf-product-card appeared within 15s")
 
         html = page.content()
-        save_debug("varus", category.replace(" ", "_"), html)  # always, per prior request
+        save_debug("varus", category.replace(" ", "_"), html)
 
         soup = BeautifulSoup(html, "html.parser")
-        # Scan all links, then climb to find a container with a price —
-        # same bounded-climb approach as ATB, since I don't have a
-        # confirmed rendered-DOM sample to write a tighter selector yet.
-        links = [a for a in soup.find_all("a", href=True) if "/" in a["href"]]
-        seen = set()
-        for a in links:
-            href = a["href"]
-            if href in seen or href in products:
+        cards = soup.select("div.sf-product-card")
+        for card in cards:
+            link = card.select_one("a.sf-product-card__link[href]")
+            href = link["href"] if link else None
+            if not href or href in products:
                 continue
-            container = a
-            text = ""
-            for _ in range(8):
-                parent = container.find_parent()
-                if parent is None:
-                    break
-                candidate = parent.get_text(" ", strip=True)
-                if len(candidate) > MAX_CONTAINER_TEXT_LEN:
-                    break
-                container, text = parent, candidate
-                if VARUS_PRICE_RE.search(text):
-                    break
-            price_m = VARUS_PRICE_RE.search(text) if text else None
-            if not price_m:
-                continue
-            seen.add(href)
-            discount_m = VARUS_DISCOUNT_RE.search(text)
-            name = a.get_text(strip=True) or href.rsplit("/", 1)[-1]
+
+            title_el = card.select_one("h2.sf-product-card__title")
+            name = title_el.get_text(strip=True) if title_el else (
+                link.get_text(strip=True) if link else href.rsplit("/", 1)[-1]
+            )
+
+            old_price_el = card.select_one("del.sf-price__old")
+            new_price_el = card.select_one("ins.sf-price__special") or card.select_one("span.sf-price__regular")
+            sale_el = card.select_one("span.sf-price__sale")
+
+            old_price_m = VARUS_NUM_RE.search(old_price_el.get_text()) if old_price_el else None
+            new_price_m = VARUS_NUM_RE.search(new_price_el.get_text()) if new_price_el else None
+            discount_m = VARUS_DISCOUNT_RE.search(sale_el.get_text()) if sale_el else None
 
             products[href] = Product(
                 store="Varus",
                 category=category,
                 name=name,
-                price=price_m.group(1).replace(",", "."),
-                old_price=None,
+                price=new_price_m.group(0).replace(",", ".") if new_price_m else None,
+                old_price=old_price_m.group(0).replace(",", ".") if old_price_m else None,
                 discount_pct=discount_m.group(1) if discount_m else None,
                 date_range=None,
                 url=href if href.startswith("http") else f"https://varus.ua{href}",
-                raw_text=text,
+                raw_text=card.get_text(" ", strip=True)[:300],
             )
-        print(f"  [varus:{category}] {len(products)} products extracted from rendered page")
+        print(f"  [varus:{category}] {len(cards)} .sf-product-card elements, {len(products)} parsed")
     finally:
         page.close()
 
